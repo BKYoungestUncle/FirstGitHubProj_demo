@@ -5,6 +5,7 @@ import java.util.Arrays;
 public class ChaRuPaiXu {
     public static void main(String[] args) {
         int[] arr ={67,65,124,64,23};
+		System.out.println("排序前："+Arrays.toString(arr));
         for(int i = 1;i< arr.length;i++){
             int temp = arr[i];
             int j = i;
